@@ -1,0 +1,25 @@
+{
+  "name": "vutrandzung-livestream",
+  "version": "1.0.0",
+  "private": true,
+  "description": "dzungvt livestream",
+  "main": "krtServer.js",
+  "scripts": {
+    "start": "node krtServer"
+  },
+  "keywords": [
+    "express",
+    "ejs",
+    "kurento",
+    "wedsocket"
+  ],
+  "author": "dzungvt",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "*",
+    "express": "*",
+    "minimist": "*",
+    "ws": "*",
+    "kurento-client": "6.6.0"
+  }
+}

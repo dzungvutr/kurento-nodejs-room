@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+.box_video {
+    padding-top: 50px;
+    position: relative;
+}
+
+.box_video .views {
+    position: absolute;
+    top: 52px;
+    left: 92px;
+}
+
+.box_video .views h3 i {
+    color: red;
+}
+
+.box_video video {
+    margin-left: 50px;
+    width: 640px;
+    height: 480px;
+    /*border: 2px solid #3456b1;*/
+    border-radius: 10px;
+}
+
+#ulUser li {
+    border-bottom: 2px solid #f5f5f5;
+    padding: 8px 5px;
+}
+
+#ulUser li:hover {
+    background: #337ab7;
+}
