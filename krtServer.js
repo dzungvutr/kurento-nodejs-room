@@ -9,7 +9,7 @@ var https = require('https');
 
 var argv = minimist(process.argv.slice(2), {
     default: {
-        as_uri: 'http://localhost:8443/',
+        as_uri: 'https://localhost:8443/',
         ws_uri: 'ws://localhost:8888/kurento'
     }
 });
@@ -145,12 +145,6 @@ wss.on('connection', function(ws) {
                     id: 'listroomOnload',
                     listroom: listRoom
                 }))
-                break;
-
-            case 'ping':
-                ws.send(JSON.stringify({
-                    id: "pong"
-                }));
                 break;
 
             default:

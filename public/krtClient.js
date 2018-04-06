@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var ws = new WebSocket('ws://localhost:8443/broadcast');
+    var ws = new WebSocket('wss://localhost:8443/broadcast');
     var video;
     var webRtcPeer;
     var roomId;
